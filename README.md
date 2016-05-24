@@ -1,7 +1,7 @@
 Resgrid's Rollbar Cordova Plugin
 ==============
 
-PhoneGap / Cordova plugin for using the Rollbar service. Currently supports Android and iOS allowing for capturing native exceptions that occur outside the context of the Web View (i.e. native crashes). 
+PhoneGap / Cordova plugin for using the Rollbar service. Currently supports Android and iOS allowing for capturing native exceptions that occur outside the context of the Web View (i.e. native crashes).
 
 About Resgrid
 -------------
@@ -24,7 +24,7 @@ cordova plugin add https://github.com/Resgrid/cordova-plugins-rollbar.git --vari
 ```
 
 ## Usage ##
-After device ready call the following line of code to initialize the Rollbar plugin. Note that the token and environment are pulled form the plugin vairables.
+After device ready call the following line of code to initialize the Rollbar plugin. Note that the token and environment are pulled form the plugin variables.
 
 ```
 cordova.plugins.Rollbar.init();
